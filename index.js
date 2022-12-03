@@ -1,4 +1,5 @@
 //to use all the packages installed, we need to require them in the index.js file
+
 const PORT = 8000
 const axios = require('axios')
 const express = require('express')
@@ -11,25 +12,11 @@ app.use(cors())
 
 const url = 'https://www.linkedin.com/jobs/frontend-developer-jobs'
 
-// how to do routing in express
-// app.METHOD(PATH, HANDLER)
-
-// most common methods used in expresss
-
-// app.get() get data
-// app.post() add data
-// app.put() edit data
-// app.delete() delete data
-
-// handler is a callback function that gets executed when we visit the PATH- the path on the serveer which we will define
-//'/' the homepage of the local port 8000 - our path of choice
-// we show the text from our backend in our browser 
-
 app.get('/', function(req, res) {
     res.json('This is my webscaper')
 })
 
-// we show the results from our webscapping in the browser when we visit a certain endpoint ('/results')
+// we show the results from our web scaping in the browser when we visit a certain endpoint ('/results')
 
 app.get('/results', (req, res) => {
     axios(url)

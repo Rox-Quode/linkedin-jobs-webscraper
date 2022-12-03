@@ -1,8 +1,5 @@
 const feedDisplay = document.querySelector('#feed')
 
-// fetch api provides a js interface for accessing and manipulating parts if the http pipeline such as req and res
-
-// general syntax
 fetch('http://localhost:8000/results')
 .then(response => {return response.json()})
 .then(data => {
