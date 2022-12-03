@@ -14,7 +14,5 @@ The tutorial project's repo can be found [here](https://github.com/kubowania/nod
 - Express 4.18.2 
 - Nodemon version 2.0.20
 
-**The project is hosted on Github Pages [here](https://rox-quode.github.io/linkedin-jobs-webscraper/)**
-
 **Work in progress**
 
