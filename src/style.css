@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.padded    { padding: 5%;   }
+
+html {
+    background-color: #181818;
+}
+
+h2 {
+    color: #588cba;
+    padding: 5%;
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+h3 {
+    color: #dd7088;
+    margin-bottom: 0.8rem;
+}
+a {
+    color: #f6f6f5;
+    padding-top: 5%;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    margin-bottom: 5%;
+}
+li {
+    margin-bottom: 1rem;
+}
+a:hover,
+a:focus{
+    opacity: 0.7;
+}
+
+li::marker {
+    color: #dd7088;
+}
